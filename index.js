@@ -1,6 +1,6 @@
 let container = 900
 let col = 12
-let gutter = 16
+let gutter = 20
 let col_num = 12
 
 let col_width = container / col - gutter
