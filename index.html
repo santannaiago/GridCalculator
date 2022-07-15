@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Grid Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+    <section class='inputs'>
+        <form data-spec='grid' action='' method='get'>
+            <label for="GET-container">Container:</label>
+            <input id="GET-container" type="number" name="container">
+
+            <label for="GET-columns">Columns:</label>
+            <input id="GET-columns" type="number" name="columns">
+
+            <label for="GET-gutter">Gutter:</label>
+            <input id="GET-gutter" type="number" name="gutter">
+        </form>
+
+        <input type="submit" value="Calcular" id='submit'>
+    </section>
+
+    <section class='output'>
+        <p></p>
+    </section>
+
+    <script src='main.js'></script>
+    </body>
+</html>
